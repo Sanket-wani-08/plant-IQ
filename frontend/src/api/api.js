@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  // baseURL: "https://plantiq-ai-plant-analysis.onrender.com/api",
-  baseURL : "http://localhost:3000/api",
+  baseURL: "https://plantiq-backend-nwf8.onrender.com/",
   withCredentials: true,
 });
 
