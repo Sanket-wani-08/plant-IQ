@@ -12,10 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      // "https://plantiq-ai-plant-analysis-app.vercel.app",
-    ],
+    origin: ["http://localhost:5173", "https://plantiq-xi.vercel.app"],
     credentials: true,
   }),
 );
