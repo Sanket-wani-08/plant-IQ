@@ -1,0 +1,9 @@
+node_modules
+.env
+
+# Backend runtime folders
+backend/uploads/
+backend/reports/
+
+# Frontend build output
+frontend/dist/
